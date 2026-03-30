@@ -28,3 +28,7 @@ An end-to-end NLP project that classifies toxic comments using machine learning 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## 🖥️ Demo
+
+![App Screenshot](screenshot.png)
