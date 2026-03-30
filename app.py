@@ -15,7 +15,7 @@ vectorizer = joblib.load('model/vectorizer.pkl')
 # Page config
 st.set_page_config(page_title="Toxic Comment Classifier")
 
-st.title("🧠 Toxic Comment Classifier")
+st.title(" Toxic Comment Classifier")
 st.write("Enter a comment to check if it's toxic or not.")
 
 # Input box
