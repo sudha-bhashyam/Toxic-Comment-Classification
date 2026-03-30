@@ -23,12 +23,12 @@ An end-to-end NLP project that classifies toxic comments using machine learning 
 - NLP (TF-IDF)
 - Streamlit
 
-## ▶️ Run Locally
 
+## ▶️ Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ## 🖥️ Demo
 
 ![App Screenshot](screenshot.png)
