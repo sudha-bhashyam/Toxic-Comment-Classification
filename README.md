@@ -1,26 +1,30 @@
-# Toxic Comment Classification
+# 🧠 Toxic Comment Classifier
 
-## Overview
-This project builds a machine learning model to classify toxic comments from online discussions.
+## 🚀 Overview
+An end-to-end NLP project that classifies toxic comments using machine learning and provides real-time predictions through a Streamlit web application.
 
-## Features
+## ⚙️ Features
 - Text preprocessing (cleaning, stopword removal)
 - TF-IDF feature extraction
 - Logistic Regression model
-- Model evaluation (precision, recall, F1-score)
-- Real-time prediction pipeline
+- Class imbalance handling (improved recall for toxic class)
+- Interactive Streamlit UI
 
-## Tech Stack
-Python, Scikit-learn, NLP
+## 📊 Model Performance
+- Accuracy: ~93%
+- Toxic Class Recall: 86%
+- Precision: 57%
 
-## How to Run
+> Optimized for higher recall to minimize missed toxic content in real-world moderation systems.
 
-### Install dependencies
+## 🛠️ Tech Stack
+- Python
+- Scikit-learn
+- NLP (TF-IDF)
+- Streamlit
+
+## ▶️ Run Locally
+
+```bash
 pip install -r requirements.txt
-
-### Train model
-cd src
-python train.py
-
-### Run prediction
-python predict.py
+streamlit run app.py
